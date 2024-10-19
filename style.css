@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 15vw;
+    height: 15vh;
+
+}
+
+.container{
+    width: 15vw;
+    height: 30vh;
+display: flex;
+margin-top: 60px;
+
+}
+.ss img{
+    width: 12vw;
+    height: 15vh;
+    background-color: white;
+}
+.ss{
+    width: 15vw;
+    height: 30vh;
+margin: 0 auto;
+border: 3px solid black;
+margin-top: 60px;
+transition: 0.5s;
+}
+.container div{
+    border: 3px solid black;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.ss:hover{
+    transform: translateY(-50px);
+}
+.container div:hover{
+    transform: translateY(-50px);
+}
